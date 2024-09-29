@@ -1,0 +1,118 @@
+.Hki {
+    /position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(47, 4, 148);
+  }
+
+  .Phi, .imi {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+  }
+  body{
+    background-color:rgb(255, 115, 0);
+    background-image: url("aHR0cDovL3BuZ2ltZy5jb20vdXBsb2Fkcy9jb2F0X2FybXNfcnVzc2lhL2NvYXRfYXJtc19ydXNzaWFfUE5HNTIucG5n.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .tabl {
+    border-collapse: collapse; /* Объединяет границы ячеек */
+    width: 300px; /* Фиксированная ширина таблицы */
+    height: 300px; /* Фиксированная высота таблицы */
+    table-layout: fixed; /* Фиксированное расположение ячеек */
+}
+
+  .tabl th, .tabl td {
+    border: 1px solid #000; /* Рамка для ячеек */
+    padding: 8px; /* Отступ внутри ячеек */
+    text-align: left; /* Выравнивание текста */
+    overflow: hidden; /* Скрывает переполнение текста */
+    text-overflow: ellipsis; /* Добавляет многоточие для переполненного текста */
+    white-space: nowrap; /* Запрещает перенос текста */
+}
+  .tab {
+    border-collapse: collapse; /* Объединяет границы ячеек */ 
+    width: 900px; /* Фиксированная ширина таблицы */
+    height: 200px; /* Фиксированная высота таблицы */
+}
+
+.tab th, .tab td {
+    border: 2px solid #000; /* Рамка для ячеек */
+    padding: 8px; /* Отступ внутри ячеек */
+    text-align: left; /* Выравнивание текста */ 
+} 
+
+.birlig {
+    background-color: rgb(10, 247, 215);
+}
+
+.whlig {
+    background-color: rgb(247, 202, 144);
+}
+/*.tab th {
+    background-color: #c7470c; /* Цвет фона для заголовков
+} */
+.form  {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Ширина формы */
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 100%; /* Полная ширина */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.long-input {
+    width: 100%; /* Полная ширина для длинных полей */
+}
+
+.form textarea {
+    height: 100px; /* Высота текстового поля */
+    overflow-y: auto; /* Прокрутка по вертикали */
+}
+
+.form button {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 10px; /* Отступ между кнопками */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form button[type="submit"] {
+    background-color: #5cb85c; /* Цвет кнопки "Заказать" */
+    color: white;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #4cae4c; /* Цвет кнопки "Заказать" при наведении */
+}
+
+.form button[type="button"] {
+    background-color: #d9534f; /* Цвет кнопки "Отменить" */
+    color: white;
+}
+
+.form button[type="button"]:hover {
+    background-color: #c9302c; /* Цвет кнопки "Отменить" при наведении */
+}
+
